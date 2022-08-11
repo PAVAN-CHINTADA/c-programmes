@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+	int n,k;
+	scanf("%d",&n);
+	k=1;
+	while(k<=n)
+	{
+		n-=k++;
+	}
+	return k-1;
+}
