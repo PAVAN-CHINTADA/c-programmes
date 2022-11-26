@@ -1,0 +1,6 @@
+list1=[1,5,56,34,86,97]
+max=list[0]
+for i in list1:
+          if i<min:
+             min=i
+print("minimum value=",min)
